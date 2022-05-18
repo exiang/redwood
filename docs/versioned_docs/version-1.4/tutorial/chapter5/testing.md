@@ -3,7 +3,7 @@
 Let's run the test suite to make sure everything is working as expected (you can keep the dev server running and start this in a second terminal window):
 
 ```bash
-yarn rw test
+yarn rw test web
 ```
 
 The `test` command starts a persistent process which watches for file changes and automatically runs any tests associated with the changed file(s) (changing a component *or* its tests will trigger a test run).
